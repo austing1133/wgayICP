@@ -1,5 +1,5 @@
-William Gay__
-ICP__
+William Gay<br />
+ICP <br />
 Image Compression using K-Means
 
 
