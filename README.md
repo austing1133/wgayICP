@@ -19,19 +19,32 @@ Base:
 
 ![humming_bird_base](https://user-images.githubusercontent.com/56702193/144263538-49ff96a9-4c32-4123-a2c9-9f77185393c0.png)
 
+**Testing the Amount of Clusters
+
 60 x 60 Sub-Images, 1 Cluster
+<br />
+Obviously, with 1 cluster the picture will come out as a single solid color. Not very useful.
 
 ![hummingbird_60_60_1](https://user-images.githubusercontent.com/56702193/144268745-d2e6bcb5-ea4c-4dc2-bd9e-b565dcd0d30d.png)
 
 60 x 60 Sub-Images, 2 Clusters
+<br />
+With 2 clusters, it can be seen the two colors are black and white. There is some distinction in the picture however it is still not possible to identify the contents of the picture.
 
 ![humming_bird_60_60_2](https://user-images.githubusercontent.com/56702193/144268778-e2e858e8-1b89-427a-a79d-b82cac9fbfac.png)
 
 60 x 60 Sub-Images, 5 Clusters
+<br />
+We see a very large difference with 5 clusters, we can easyily distinguish what the picture is now. Adding more clusters here on makes the pictures smoother and slightly clearer but does not make as much of an impact.
 
 ![huming_bird_60_60_5](https://user-images.githubusercontent.com/56702193/144269615-947465d5-956a-418d-b10f-3fd0dac22eaf.png)
 
+**Testing the amount of sub-images
+
+Its easy to tell that the clarity of the picture increases the more sub-images are used. However more sub-images means less opportunity for image compression. I found 60 by 60 sub-images (3600) to be a good compromise where the picture is still clearly observable with a simple picture. However, more complicated pictires will require more sub-images to maintain their clarity.
+
 20 x 20 Sub-Images, 25 Clusters
+<br />
 
 ![humming_bird_20_20_25](https://user-images.githubusercontent.com/56702193/144268924-872cd779-a459-4644-aa63-c288b4e200de.png)
 
